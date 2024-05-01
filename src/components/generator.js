@@ -1,4 +1,5 @@
 import React from 'react'
+import { VscGear } from 'react-icons/vsc';
 
 function Generator() {
   return (
@@ -9,7 +10,7 @@ function Generator() {
             </button>
             <h2>LinkedIn Cover Letter Generator</h2>
             <button className='border mr-[1px] p-2 border-solid border-gray-600 rounded-[100%] hover:border-2 hover:mr-0 transition duration-300 ease-in-out'>
-                Settings
+                <VscGear />
             </button>
         </div>
         {/*  */}
